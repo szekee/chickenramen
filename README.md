@@ -15,6 +15,9 @@ As Singapore moves towards Smart Nation initiative, bad actors continue to use p
 - However, the reliance on the aforementioned technology has also increased the amount of phishing attacks brought about by bad actors in society.
 - Furthermore, the use of QR code to register for links have given rise to “Quishing”. It occurs when an individual uses QR code to trick people to share personal or financial information. 
 
+## Dataset
+In order to train our model to achieve phishing link detection, the 4 different datasets used contain two key groups of input values: URLs and their labels (0 for legitimate websites, 1 for phishing website).
+
 ## Business Value
 - Gain customer trust through verification → Increased customer willingness to transact with the company → Builds brand loyalty → Increased revenue for the company
 - Legitimacy of transactions are ensured → Reduces number of fraud cases faced by the company → Reduced losses to scams by the company → Increased profits for the company 
