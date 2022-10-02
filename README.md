@@ -15,39 +15,6 @@ As Singapore moves towards Smart Nation initiative, bad actors continue to use p
 - However, the reliance on the aforementioned technology has also increased the amount of phishing attacks brought about by bad actors in society.
 - Furthermore, the use of QR code to register for links have given rise to “Quishing”. It occurs when an individual uses QR code to trick people to share personal or financial information. 
 
-## Model Building
-Our team complied a (non-exhaustive) list of features and built feature extraction pipelines to ingest URLs to be broken down into components for our machine learning models:
-
-- URL domain
-- Presence of IP address
-- Presence of ‘@’ symbol
-- URL length
-- URL depth
-- Redirection
-- Existence of HTTPS in domain
-- Presence of shortened URLs
-- Presence of ‘-’ symbol
-- DNS record
-- Domain age
-- End period of domain
-- IFrame redirection
-- Status bar customization
-- Status of right click
-- Number of website forwardings
-
-Our team also made use of multiple models to build 5 main models each with Different Features and Feature Extraction methods.
-Our final model is an ensemble comprising of the 5 individual Models:
-
-| Individual Models  | Test Accuracy |
-| ------------- | ------------- |
-| Model 1 (JS)  | 94.6%  |
-| Model 2 (JL)  | 87.0%  |
-| Model 3 (SK)  | 99.4%  |
-| Model 4 (HX)  | 86.4%  |
-| Model 5 (WD)  | 91.4%  |
-
-## Datasets
-
 ## Web Application
 Built with Flask backend with a Javascript frontend.
 Our web application allows users to either: Input a link in the app OR Input a QR Code in the app
