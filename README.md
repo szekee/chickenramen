@@ -1,6 +1,7 @@
 # DLW Hackathon
 
 By team chickenramen
+For model building and datasets, refer to https://github.com/jieshengc/DLWHackathon-Models
 
 ## Problem Statement
 
