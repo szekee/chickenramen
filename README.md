@@ -26,7 +26,25 @@ The results will be displayed to the User on the Frontend.
 
 ## Running the Web Application
 
+#### Clone Repository
+Clone Repository by running: 
+```
+git clone https://github.com/szekee/chickenramen.git
+```
 
+#### Install Requirements
+Install Requirements using:
+```
+pip install -r requirements.txt
+```
+
+#### Run Frontend
+```
+```
+
+#### Run Backend
+```
+```
 ## Business Value
 - Gain customer trust through verification → Increased customer willingness to transact with the company → Builds brand loyalty → Increased revenue for the company
 - Legitimacy of transactions are ensured → Reduces number of fraud cases faced by the company → Reduced losses to scams by the company → Increased profits for the company 
