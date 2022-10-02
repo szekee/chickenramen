@@ -1,0 +1,4 @@
+*.ipynb
+datasets/
+models/
+.ipynb_checkpoints/
