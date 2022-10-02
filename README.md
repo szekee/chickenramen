@@ -48,9 +48,7 @@ Our final model is an ensemble comprising of the 5 individual Models:
 
 ## Web Application
 Built with Flask backend with a Javascript frontend.
-Our web application allows users to either:
-a. Input a link in the app
-b. Input a QR Code in the app
+Our web application allows users to either: Input a link in the app OR Input a QR Code in the app
 
 From the backend,a built in QR Code reader will be able to extract the URL from the QR.
 The URLs are then passed through our Feature Extractor and Machine Learning Ensemble Model.
