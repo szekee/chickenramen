@@ -15,6 +15,11 @@ As Singapore moves towards Smart Nation initiative, bad actors continue to use p
 - However, the reliance on the aforementioned technology has also increased the amount of phishing attacks brought about by bad actors in society.
 - Furthermore, the use of QR code to register for links have given rise to “Quishing”. It occurs when an individual uses QR code to trick people to share personal or financial information. 
 
+## Business Value
+- Gain customer trust through verification → Increased customer willingness to transact with the company → Builds brand loyalty → Increased revenue for the company
+- Legitimacy of transactions are ensured → Reduces number of fraud cases faced by the company → Reduced losses to scams by the company → Increased profits for the company 
+- Victims of phishing scams lost at least S$34.7 million in 2021 → Potential “gain” to Singapore society → Reduced number of phishing cases in Singapore
+
 ## Web Application
 Built with Flask backend with a Javascript frontend.
 Our web application allows users to either: Input a link in the app OR Input a QR Code in the app
@@ -63,8 +68,3 @@ Then run
 ```
 npm run dev
 ```
-## Business Value
-- Gain customer trust through verification → Increased customer willingness to transact with the company → Builds brand loyalty → Increased revenue for the company
-- Legitimacy of transactions are ensured → Reduces number of fraud cases faced by the company → Reduced losses to scams by the company → Increased profits for the company 
-- Victims of phishing scams lost at least S$34.7 million in 2021 → Potential “gain” to Singapore society → Reduced number of phishing cases in Singapore
-
