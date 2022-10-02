@@ -15,6 +15,9 @@ As Singapore moves towards Smart Nation initiative, bad actors continue to use p
 - However, the reliance on the aforementioned technology has also increased the amount of phishing attacks brought about by bad actors in society.
 - Furthermore, the use of QR code to register for links have given rise to “Quishing”. It occurs when an individual uses QR code to trick people to share personal or financial information. 
 
+## Dataset
+In order to train our model for phishing link detection, the 4 different datasets used consists of mainly two groups of data, URLs and their labels (0 for legitimate website, 1 for phishing) 
+
 ## Web Application
 Built with Flask backend with a Javascript frontend.
 Our web application allows users to either: Input a link in the app OR Input a QR Code in the app
