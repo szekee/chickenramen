@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detect Phishing</title>
+  </head>
+  <body>
+    <form method="POST">
+      <label for="url">URL</label>
+      <input type="text" class="form-control" name="url" id="url">
+      <button type="button" id="submit">Check URL</button>
+    </form>
+
+    <br><br>
+
+    <div id="container">
+      <video autoplay="true" id="video"></video>
+      <button id="btn"> Take Picture </button>
+      <canvas id="canvas" class="hidden"></canvas>
+      <img src="" alt="" id="img">
+    </div>
+
+    <!-- <div id="app"></div> -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
