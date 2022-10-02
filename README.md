@@ -34,16 +34,30 @@ git clone https://github.com/szekee/chickenramen.git
 
 #### Install Requirements
 Install Requirements using:
+Note: to install requirements, please ensure that python version is 3.7.14
 ```
 pip install -r requirements.txt
+npm install
 ```
 
 #### Run Frontend
+In the repository main folder run:
 ```
+cd src
+```
+Then run
+```
+python main.py
 ```
 
 #### Run Backend
+In the repository main folder run:
 ```
+cd phishing_detector
+```
+Then run
+```
+npm run dev
 ```
 ## Business Value
 - Gain customer trust through verification → Increased customer willingness to transact with the company → Builds brand loyalty → Increased revenue for the company
