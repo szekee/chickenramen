@@ -37,6 +37,10 @@ Install Requirements using:
 Note: to install requirements, please ensure that python version is 3.7.14
 ```
 pip install -r requirements.txt
+```
+For backend, in main folder run:
+```
+cd phishing_detector
 npm install
 ```
 
